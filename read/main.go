@@ -30,7 +30,6 @@ func main() {
 
 	scanner := bufio.NewScanner(file)
 	for scanner.Scan() {
-		//fmt.Println(scanner.Text())
 		appendName(scanner.Text())
 	}
 
